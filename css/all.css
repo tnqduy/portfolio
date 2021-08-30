@@ -420,19 +420,23 @@ h2.slogan {
   overflow: hidden;
   margin: 0 0 40px;
 }
-.skills_holder .column {
-  width: 470px;
+.skills_holder .column_unity {
+  width: 450px;
   float: left;
-  margin: 0 10px 0 0;
+  margin-left: 50px;
+  /* margin: auto; */
 }
-.skills_holder .column.column-add {
+.skills_holder .column_csharp {
   float: right;
-  margin: 0;
+  width: 450px;
+  margin-right: 50px;
 }
 .progress {
   overflow: hidden;
-  width: 100%;
-  margin: 20px 0 3px 0;
+  width: 80%;
+  /* margin: 20px 0 3px 0; */
+  margin: auto;
+  margin-top: 20px;
 }
 .progress li {
   overflow: hidden;
@@ -451,7 +455,8 @@ h2.slogan {
   font-family: "Arial";
   font-weight: normal;
   font-size: 18px;
-  padding: 0 0 0 20px;
+  text-align: center;
+  /* padding: 0 0 0 20px; */
 }
 .progress li span {
   width: 100%;
