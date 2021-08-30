@@ -420,19 +420,23 @@ h2.slogan {
   overflow: hidden;
   margin: 0 0 40px;
 }
-.skills_holder .column {
-  width: 470px;
+.skills_holder .column_unity {
+  width: 450px;
   float: left;
-  margin: 0 10px 0 0;
+  margin-left: 50px;
+  /* margin: auto; */
 }
-.skills_holder .column.column-add {
+.skills_holder .column_csharp {
   float: right;
-  margin: 0;
+  width: 450px;
+  margin-right: 50px;
 }
 .progress {
   overflow: hidden;
-  width: 100%;
-  margin: 20px 0 3px 0;
+  width: 80%;
+  /* margin: 20px 0 3px 0; */
+  margin: auto;
+  margin-top: 20px;
 }
 .progress li {
   overflow: hidden;
@@ -451,7 +455,8 @@ h2.slogan {
   font-family: "Arial";
   font-weight: normal;
   font-size: 18px;
-  padding: 0 0 0 20px;
+  text-align: center;
+  /* padding: 0 0 0 20px; */
 }
 .progress li span {
   width: 100%;
@@ -649,7 +654,7 @@ h2.slogan {
   display: block;
   background: url(../images/bg_white_border.gif) no-repeat 50% 100%;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: "novecentosanswide";
   font-weight: bold;
   font-size: 14px;
@@ -671,7 +676,7 @@ h2.slogan {
 }
 .images_holder {
   float: left;
-  margin: 5px 130px 0 0;
+  margin: 5px 150px 0 150px;
   width: 370px;
 }
 .images_holder img {
@@ -688,7 +693,7 @@ h2.slogan {
   font-family: "novecento_sans_widebook";
   font-size: 30px;
   line-height: 32px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   margin: 0 0 55px;
   padding: 5px 0 18px 80px;
@@ -770,7 +775,7 @@ h2.slogan {
 }
 /* begin add	 */
 .popup_portfolio {
-  max-width: 1132px;
+  max-width: 566px;
 }
 .popup_portfolio h3 {
   padding-top: 26px;
@@ -779,7 +784,7 @@ h2.slogan {
   color: #63666a;
   font-size: 18px;
   line-height: 18px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .popup_portfolio time {
   font-family: "novecentosanswide";
@@ -795,10 +800,17 @@ h2.slogan {
   line-height: 30px;
 }
 .popup_portfolio img {
+  float: left;
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 8px, 8px, 8px, 8px;
 }
+/* .popup_portfolio .img2 {
+  float: right;
+  width: 50%;
+  height: auto;
+  border-radius: 8px, 8px, 8px, 8px;
+} */
 .fancybox-close {
   width: 46px;
   height: 46px;

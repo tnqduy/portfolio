@@ -9,12 +9,24 @@ app.controller("controller", function ($scope) {
   };
   $scope.career = getCareerData();
   $scope.skills = getSkillsData();
+  $scope.portfolio = getPortfolioData();
 });
+
+function getPortfolioData() {
+  var pRegisterRace = {
+    icon: "images/port_registerace_01.png",
+    background: "images/port_registerace_01.png",
+    storeLink: "#",
+    title: "Register Race",
+    content: "test",
+  };
+  return [pRegisterRace];
+}
 
 function getCareerData() {
   var cGraduate = {
     date: "03/17",
-    content: "graduation",
+    content: "graduated from university",
   };
 
   var cAppsCyclone = {
@@ -58,6 +70,6 @@ function getSkillsData() {
     "Having experienced in using task management tools: Jira, Trello",
     "Having experienced in using source control tools: Bitbucket, Github.",
     "Having researched about new Unity techinques: DOTS (Jobs system, Burst compiler, ECS)",
-    "Confident in English Verbal"
+    "Confident in English Verbal",
   ];
 }
