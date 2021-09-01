@@ -228,7 +228,7 @@ html {
 }
 body {
   margin: 0;
-  color: #ECEBE4;
+  color: #ecebe4;
   font: 18px Arial, Helvetica, sans-serif;
   -webkit-text-size-adjust: none;
 }
@@ -252,11 +252,11 @@ a:hover {
   width: 100%;
   display: table-row;
   /* background: #50af6f; */
-  background-image: linear-gradient(to bottom right, #4357AD , #0C1713);
+  background-image: linear-gradient(to bottom right, #4357ad, #0c1713);
 }
 .wrapper-holder.grey {
   /* background: #28292b; */
-  background: #0C1713;
+  background: #0c1713;
 }
 #header {
   max-width: 1170px;
@@ -302,19 +302,19 @@ a:hover {
   padding: 0;
 }
 #nav ul a {
-  color: #ECEBE4;
+  color: #ecebe4;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
   padding: 0 0 10px;
-  border-bottom: 4px solid #4357AD;
+  border-bottom: 4px solid #4357ad;
   font-family: "novecentosanswide";
   font-weight: normal;
 }
 #nav ul a:hover,
 #nav ul a.active {
-  color: #ECEBE4;
-  border-bottom: 4px solid #ECEBE4;
+  color: #ecebe4;
+  border-bottom: 4px solid #ecebe4;
   text-decoration: none;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -328,9 +328,18 @@ h2.slogan {
   font-family: "novecento_sans_widebook";
   font-size: 30px;
   line-height: 32px;
-  color: #ECEBE4;
+  color: #ecebe4;
   padding: 34px 0 50px 0;
   background: url(../images/slogan_bg.png) no-repeat 50% 0;
+}
+.greetings p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(202, 202, 202);
+  text-align: center;
 }
 /*main
  */
@@ -348,7 +357,7 @@ h2.slogan {
   font-family: "novecento_sans_widebook";
   font-size: 30px;
   line-height: 32px;
-  color: #ECEBE4;
+  color: #ecebe4;
   margin: 0 0 81px;
 }
 .box_timeline_holder {
@@ -387,7 +396,7 @@ h2.slogan {
 .box_timeline ul li .date span {
   font-family: "novecentosanswide";
   font-weight: bold;
-  color: #ECEBE4;
+  color: #ecebe4;
   font-size: 14px;
   line-height: 16px;
   display: block;
@@ -405,7 +414,7 @@ h2.slogan {
 }
 .box_timeline p {
   font-family: Arial, Helvetica, sans-serif;
-  color: #ECEBE4;
+  color: #ecebe4;
   font-size: 16px;
   line-height: 18px;
   display: block;
@@ -451,7 +460,7 @@ h2.slogan {
 }
 .progress li span {
   background: #50af6f;
-  color: #ECEBE4;
+  color: #ecebe4;
   text-transform: uppercase;
   display: block;
   font-family: "Arial";
@@ -580,7 +589,7 @@ h2.slogan {
 }
 /* begin add */
 .sub_nav li {
-  color: #ECEBE4;
+  color: #ecebe4;
   font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
@@ -592,8 +601,8 @@ h2.slogan {
 }
 .sub_nav li:hover,
 .sub_nav .active {
-  color: #ECEBE4;
-  border-bottom: 4px solid #ECEBE4;
+  color: #ecebe4;
+  border-bottom: 4px solid #ecebe4;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
@@ -656,17 +665,19 @@ h2.slogan {
   display: block;
   background: url(../images/bg_white_border.gif) no-repeat 50% 100%;
   color: #fff;
-  /* text-transform: uppercase; */
+  text-transform: lowercase;
   font-family: "novecentosanswide";
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 25px;
+  line-height: 25px;
   padding: 0 0 20px;
   text-align: center;
   margin: 0 0 15px;
 }
 .item .item-content p {
   color: #fff;
+  font-family: "novecentosanswide";
+  text-transform: lowercase;
   text-align: center;
   display: block;
   font-size: 15px;
@@ -691,7 +702,7 @@ h2.slogan {
   margin: 54px 0 0 0;
 }
 .box_contact span {
-  color: #ECEBE4;
+  color: #ecebe4;
   font-family: "novecento_sans_widebook";
   font-size: 30px;
   line-height: 32px;
@@ -715,9 +726,8 @@ h2.slogan {
   width: 100%;
   overflow: hidden;
   display: table-footer-group;
-  background: #ECEBE4;
+  background: #ecebe4;
   /* background-image: linear-gradient(to bottom left, #4357AD , #0C1713); */
-
 }
 .footer-content {
   max-width: 1170px;
@@ -788,7 +798,7 @@ h2.slogan {
   color: #63666a;
   font-size: 18px;
   line-height: 18px;
-  /* text-transform: uppercase; */
+  text-transform: lowercase;
 }
 .popup_portfolio time {
   font-family: "novecentosanswide";
