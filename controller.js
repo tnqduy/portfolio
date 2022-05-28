@@ -3,7 +3,7 @@ app.controller("controller", function ($scope) {
     name: "Duy Tran",
     title: "Game Developer",
     facebook: "https://www.facebook.com/duytr.22/",
-    email: "tnqduy@gmail.com",
+    email: "peter.duytran95@gmail.com",
     phone: "+84 367649934",
     skype: "ak.duy",
   };
@@ -43,16 +43,16 @@ function getCareerData() {
     date: "03/20",
     content: "Goodia Inc.",
   };
-  var cGoodia1 = {
-    date: "03/20",
-    content: "Goodia Inc.",
+  var cSipher = {
+    date: "10/21",
+    content: "SIPHER",
   };
 
   var cGoodia2 = {
     date: "03/20",
     content: "Goodia Inc.",
   };
-  return [cGraduate, cAppsCyclone, cEyeclick, cGoodia];
+  return [cGraduate, cAppsCyclone, cEyeclick, cGoodia, cSipher];
 }
 
 function getSkillsData() {
